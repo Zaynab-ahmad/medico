@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task #4</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <header id="Home">
+        <div class="topbar d-flex align-items-center bg-info text-white d-none text-secondary d-sm-block py-2">
+            <div class="container d-flex justify-content-center justify-content-md-between">
+                <div>
+                    <i class="fa-solid fa-clock"></i> Monday - Saturday 8AM to 10PM
+                </div>
+                <div>
+                    <i class="fa-solid fa-mobile-screen-button"></i> Call us now +1 5589 55488 55
+                </div>
+
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand align-baseline" href="#">
+                    <img src="./images/logo.png" alt="Medicio-logo" style="width: 100px;">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse align-items-center" id="navbarSupportedContent">
+                    <div class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item">
+                            <a class="nav-link active text-info" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Service">SERVICE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Departments">DEPARTMENTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">DOCTORS</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">CONTACT</a>
+                        </li>
+                        <button class="btn btn-info text-white">Make an Appointment</button>
+
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+    <section class="hero vh-80">
+
+    
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active rounded-circle bg-white"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" class="rounded-circle  bg-white"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" class="rounded-circle  bg-white"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./images/hero-carousel-1.jpg" class="d-block w-100" alt="hero-carousel-1">
+                <div class="carousel-caption text-black p-3 mb-2 rounded w-75 d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                    <a href="#" class="btn btn-info text-white w-25">Read More</a>
+
+                </div>
+            </div>
+            <div class="carousel-item ">
+                <img src="./images/hero-carousel-2.jpg" class="d-block w-100" alt="hero-carousel-2">
+                <div class="carousel-caption text-black p-3 mb-2 rounded  w-75 d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                    <a href="#" class="btn btn-info text-white w-25">Read More</a>
+
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./images/hero-carousel-3.jpg" class="d-block w-100" alt="hero-carousel-3.jpg">
+                <div class="carousel-caption text-black p-3 mb-2 rounded w-75 d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                    <a href="#" class="btn btn-info text-white w-25">Read More</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <!-- </header> -->
+    <section id="Service" class="Service py-4">
+        <div class="container text-center">
+            <h2 class="line-below text-center m-2">Service</h2>
+            <p class="my-4">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit.</p>
+            <div class="row g-4 my-5">
+                <div class="col-lg-4 col-md-6 col-sm-12 my-4">
+                    <div class="icon d-flex align-items-center justify-content-center my-4 mx-auto shadow bg-white rounded-circle">
+                        <i class="fa-solid fa-2x fa-heart-pulse"></i>
+                    </div>
+                    <h4 class="line-below m-2">Heart Health</h4>
+                    <p class="m-4">Lorem ipsum dolor sit amet consectetur adipisicing elit sit amet.</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="icon d-flex align-items-center justify-content-center my-4 mx-auto shadow bg-white rounded-circle">
+                        <i class="fa-solid fa-2x fa-brain"></i>
+                    </div>
+                    <h4 class="line-below m-2">Brain Health</h4>
+                    <p class="m-4">Lorem ipsum dolor sit amet consectetur adipisicing elit sit amet.</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="icon d-flex align-items-center justify-content-center my-4 mx-auto shadow bg-white rounded-circle">
+                        <i class="fa-solid fa-2x fa-lungs"></i>
+                    </div>
+                    <h4 class="line-below m-2">Lung Health</h4>
+                    <p class="m-4">Lorem ipsum dolor sit amet consectetur adipisicing elit sit amet.</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="icon d-flex align-items-center justify-content-center my-4 mx-auto shadow bg-white rounded-circle">
+                        <i class="fa-solid fa-2x fa-tooth"></i>
+                    </div>
+                    <h4 class="line-below m-2">Dental Care</h4>
+                    <p class="m-4">Lorem ipsum dolor sit amet consectetur adipisicing elit sit amet.</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="icon d-flex align-items-center justify-content-center my-4 mx-auto shadow bg-white rounded-circle">
+                        <i class="fa-solid fa-2x fa-stethoscope"></i>
+                    </div>
+                    <h4 class="line-below">General Health</h4>
+                    <p class="m-4">Lorem ipsum dolor sit amet consectetur adipisicing elit sit amet.</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="icon d-flex align-items-center justify-content-center my-4 mx-auto shadow bg-white rounded-circle">
+                        <i class="fa-solid fa-2x fa-capsules"></i>
+                    </div>
+                    <h4 class="line-below m-2">Pharmacy</h4>
+                    <p class="m-4">Lorem ipsum dolor sit amet consectetur adipisicing elit sit amet.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Appointment" class="py-4 bg-light">
+        <div class="container text-center">
+            <div class="text-center mb-5">
+                <h2 class="line-below text-center m-2">Make an Appointment</h2>
+                <p class="my-4">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit.</p>
+            </div>
+            <form>
+                <div class="row gy-3 gx-4">
+                    <div class="col-md-4">
+                        <input type="text" class="form-control" placeholder="Your Name">
+                    </div>
+                    <div class="col-md-4">
+                        <input type="email" class="form-control" placeholder="Your Email">
+                    </div>
+                    <div class="col-md-4">
+                        <input type="text" class="form-control" placeholder="Your Phone">
+                    </div>
+                    <div class="col-md-4">
+                        <input type="date" class="form-control" placeholder="mm/dd/yyyy">
+                    </div>
+                    <div class="col-md-4">
+                        <select class="form-select">
+                            <option>Select Department</option>
+                            <option>Heart Health</option>
+                            <option>Brain Health</option>
+                            <option>Lung Health</option>
+                            <option>Dental Care</option>
+                            <option>General Health</option>
+                            <option>Pharmacy</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4">
+                        <select class="form-select">
+                            <option>Select Doctor</option>
+                            <option>Dr. John Doe</option>
+                            <option>Dr. Jane Smith</option>
+                        </select>
+                    </div>
+                    <div class="col-12">
+                        <textarea class="form-control" rows="4" placeholder="Message (Optional)"></textarea>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-info text-white col-3">Make an Appointment</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section id="Departments" class="Departments py-4">
+        <div class="container text-center">
+            <div class="text-center mb-5">
+                <h2 class="line-below text-center m-2">Departments</h2>
+                <p class="my-4">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit.</p>
+            </div>
+            <div class="row text-start g-4">
+                <div class="col-sm-12 col-md-3 ">
+                    <div class="list-group border-radius-0" id="list-tab" role="tablist">
+                        <a class="list-group-item list-group-item-action active py-3" id="list-Cardiology-list"
+                            data-bs-toggle="list" href="#list-Cardiology" role="tab"
+                            aria-controls="Cardiology">Cardiology</a>
+                        <a class="list-group-item list-group-item-action py-3" id="list-Neurology-list"
+                            data-bs-toggle="list" href="#list-Neurology" role="tab"
+                            aria-controls="Neurology">Neurology</a>
+                        <a class="list-group-item list-group-item-action py-3" id="list-Hepatology-list"
+                            data-bs-toggle="list" href="#list-Hepatology" role="tab"
+                            aria-controls="Hepatology">Hepatology</a>
+                        <a class="list-group-item list-group-item-action py-3" id="list-Pediatrics-list"
+                            data-bs-toggle="list" href="#list-Pediatrics" role="tab"
+                            aria-controls="Pediatrics">Pediatrics</a>
+                        <a class="list-group-item list-group-item-action py-3" id="list-Ophthalmologists-list"
+                            data-bs-toggle="list" href="#list-Ophthalmologists" role="tab"
+                            aria-controls="Ophthalmologists">Ophthalmologists</a>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="list-Cardiology" role="tabpanel"
+                            aria-labelledby="list-Cardiology-list">
+                            <div class="row">
+                                <div class="col-md-6 col-sm-12 text-start">
+                                    <h4>Cardiology</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio doloremque quidem
+                                        aliquid est amet magni cum, animi eius dolorem quis!
+                                    </p>
+                                </div>
+                                <div class="col-md-3 col-sm-12 d-flex departments-img">
+
+                                    <img src="./images/departments-1.jpg" alt="Cardiology" width=300px>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="tab-pane fade" id="list-Neurology" role="tabpanel"
+                            aria-labelledby="list-Neurology-list">
+                            <div class="row">
+                                <div class="col-md-6 col-sm-12 text-start">
+                                    <h4>Neurology</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio doloremque quidem
+                                        aliquid est amet magni cum,
+                                        animi eius dolorem quis!
+                                    </p>
+                                </div>
+                                <div class="col-md-3 col-sm-12">
+
+                                    <img src="./images/departments-2.jpg" alt="Cardiology" width=300px>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="list-Hepatology" role="tabpanel"
+                            aria-labelledby="list-Hepatology-list">
+                            <div class="row">
+                                <div class="col-md-6 col-sm-12 text-start">
+                                    <h4>Hepatology</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio doloremque quidem
+                                        aliquid est amet magni cum, animi eius dolorem quis!
+                                    </p>
+                                </div>
+                                <div class="col-md-3 col-sm-12">
+
+                                    <img src="./images/departments-3.jpg" alt="Cardiology" width=300px>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="tab-pane fade" id="list-Pediatrics" role="tabpanel"
+                            aria-labelledby="list-Pediatrics-list">
+                            <div class="row">
+                                <div class="col-md-6 col-sm-12 text-start">
+                                    <h4>Pediatrics</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio doloremque quidem
+                                        aliquid est amet magni cum,
+                                        animi eius dolorem quis!
+                                    </p>
+                                </div>
+                                <div class="col-md-3 col-sm-12">
+
+                                    <img src="./images/departments-4.jpg" alt="Cardiology" width=300px>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="list-Ophthalmologists" role="tabpanel"
+                            aria-labelledby="list-Ophthalmologists-list">
+                            <div class="row">
+                                <div class="col-md-6 col-sm-12 text-start">
+                                    <h4>Ophthalmologists</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio doloremque quidem
+                                        aliquid est amet magni cum,
+                                        animi eius dolorem quis!
+                                    </p>
+                                </div>
+                                <div class="col-md-3 col-sm-12">
+
+                                    <img src="./images/departments-5.jpg" alt="Ophthalmologists" width=300px>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <section class="Questions bg-light py-4">
+        <div class="container text-center">
+            <div class="text-center mb-5">
+                <h2 class="line-below text-center m-2">Frequently Asked Questions</h2>
+                <p class="my-4">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit.</p>
+            </div>
+            <div class="accordion accordion-flush my-4" id="accordionFlushExample">
+                <div class="accordion-item my-3">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            Lorem ipsum dolor sit amet?
+
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                            demonstrate the
+                            <code>.accordion-flush</code> class. This is the first item's accordion body.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-3">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            sit amet consectetur adipisicing elit. Porro, molestias?
+
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                            demonstrate the
+                            <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine
+                            this being
+                            filled with some actual content.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-3">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            Inventore modi voluptatem optio commodi tenetur nam?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                            demonstrate the
+                            <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more
+                            exciting
+                            happening here in terms of content, but just filling up the space to make it look, at least
+                            at first
+                            glance, a bit more representative of how this would look in a real-world application.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+    <section id="contact" class="contact py-4">
+        <div class="container text-center">
+            <div class="text-center mb-5">
+                <h2 class="line-below text-center m-2">Contact</h2>
+                <p class="my-4">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit.</p>
+            </div>
+        </div>
+        <div id="map" class="row">
+            <div class="col-12 my-4">
+                <div class="ratio ratio-16x9">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12988.375725802009!2d35.7829338922504!3d35.52667637661441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1526ada7c38f8879%3A0x5f66e4e99dbb7a47!2sfocal%20X%20agency!5e0!3m2!1sen!2s!4v1727896530532!5m2!1sen!2s"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12">
+                    <div class="row mb-4">
+                        <div class="col-12">
+                            <div class="card info-card shadow border-0 p-2">
+                                <div class="contact-icon mx-auto my-2 d-flex rounded-circle justify-content-center align-items-center">
+                                    <i class="fa-solid fa-lg fa-house-chimney"></i>
+                                </div>
+                                <h5 class="fs-5">Our Address</h5>
+                                <a href="#map" class="text-info text-decoration-none text-secondary">View on Map</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-4 g-4">
+                        <div class="col-6">
+                            <div class="card info-card shadow border-0 p-2">
+                                <div class="contact-icon mx-auto my-2 d-flex rounded-circle bg-white justify-content-center align-items-center">
+
+                                    <i class="fa-solid fa-lg fa-phone-flip"></i>
+                                </div>
+                                <h5 class="fs-5">Phone Number</h5>
+                                <a href="#" class="text-info text-decoration-none text-secondary">Call Us Now</a>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="card info-card shadow border-0 p-2">
+                                <div class="contact-icon mx-auto my-2 d-flex rounded-circle bg-white justify-content-center align-items-center">
+                                    <i class="fa-solid fa-lg fa-envelope"></i>
+
+                                </div>
+                                <h5 class="fs-5">Email Address</h5>
+                                <a href="#" class="text-info text-decoration-none text-secondary">Call Us Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card info-card shadow border-0 p-2 p-4">
+                        <form>
+                            <div class="row mb-3 g-4">
+
+                                    <div class="col-6">
+                                        <input type="text" class="form-control" placeholder="Enter your first name">
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="email" class="form-control" placeholder="Enter your email">
+                                    </div>
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Enter the subject">
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control" rows="4" placeholder="Enter your message"></textarea>
+                            </div>
+                            <div class="text-center col-md-12">
+                                <button type="submit" class="btn btn-info text-white  w-25">Send</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer bg-light small p-5 justify-content-between ">
+        <div class="container">
+            <div class="row border-bottom border-secondary">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <h5>Medicio</h5>
+                    <p>A108 Adam Street New York NY 535022</p>
+                    <p>Phone: <a class="text-secondary text-decoration-none" href = "tel:+963969108928">0969108928</a></p>
+                    <p>Email: <a class="text-secondary text-decoration-none" href="mailto:info@gmail.com">info@gmail.com</a></p>
+                    <div class="icons">
+
+                        <a class="text-decoration-none text-secondary" href="#">
+                            <span class="fa-stack fa-lg social-icons">    
+                                <i class="fa-regular fa-circle fa-stack-2x"></i>
+                                <i class="fa-brands fa-facebook-f fa-stack-1x"></i>
+                            </span></i></a>
+                        <a class="text-decoration-none text-secondary " href="#">
+                            <span class="fa-stack fa-lg social-icons">
+                                <i class="fa-regular fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-twitter fa-stack-1x"></i>
+                            </span></a>
+                        <a class="text-decoration-none text-secondary" href="#">
+                            <span class="fa-stack fa-lg social-icons">
+                                <i class="fa-regular fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-linkedin-in fa-stack-1x"></i>
+                            </span></a>
+                        <a class="text-decoration-none text-secondary " href="#">
+                            <span class="fa-stack fa-lg social-icons">
+                                <i class="fa-regular fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-instagram fa-stack-1x"></i>
+                            </span></a>
+
+
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5>Useful Links</h5>
+                    <a class="d-block text-decoration-none text-secondary my-2" href="#Home">Home</a>
+                    <a class="d-block text-decoration-none text-secondary my-2" href="#">About us</a>
+                    <a class="d-block text-decoration-none text-secondary my-2" href="#Service">Services</a>
+                    <a class="d-block text-decoration-none text-secondary my-2" href="#">Terms of service</a>
+                    <a class="d-block text-decoration-none text-secondary my-2" href="#">Privacy policy</a>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5>Our Services</h5>
+                    <ul class="list-unstyled text-secondary">
+                        <li class="my-2">Web Design</li>
+                        <li class="my-2">Web Development</li>
+                        <li class="my-2">Product Mangement</li>
+                        <li class="my-2">Marketing</li>
+                        <li class="my-2">Graphic Design</li>
+                    </ul>
+
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5>Hic solutasetp</h5>
+                    <ul class="list-unstyled text-secondary">
+                        <li class="my-2">vitae corporis</li>
+                        <li class="my-2">adipisicing</li>
+                        <li class="my-2">consectetur</li>
+                        <li class="my-2">optio</li>
+                        <li class="my-2">vitae</li>
+                    </ul>
+
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5>Hic solutasetp</h5>
+                    <ul class="list-unstyled text-secondary">
+                        <li class="my-2">quibusdam</li>
+                        <li class="my-2">doloremque</li>
+                        <li class="my-2">consequuntur</li>
+                        <li class="my-2">dicta</li>
+                        <li class="my-2">officia</li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-12">
+                    <div class="copyright mt-4">
+                        <p>© Copyright <strong>Medicio</strong>. All Rights Reserved</p>
+                        <p>Designed by <a href="#" class="text-info text-decoration-none">Zaynab Ahmad</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

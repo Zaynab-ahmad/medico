@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+}
+:root {
+    --info: rgb(63 186 191);
+    --light: #f7fdfd;
+}
+
+.bg-info,
+.btn-info,
+button.active {
+    background-color: var(--info) !important;
+}
+
+.text-info,
+.info,
+ .icon, .contact-icon {
+    color: var(--info) !important;
+}
+.bg-light {
+    background-color: var(--light);
+}
+
+.btn-info {
+    transition: all 0.3s ease;
+}
+
+
+
+.carousel .carousel-indicators button {
+    width: 10px; 
+     height: 10px;
+}
+
+
+.carousel-caption {
+    position: absolute;
+    height: min-content;
+    border-top: 4px solid var(--info);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.772);
+}
+
+
+.line-below {
+    position: relative;
+    display: inline-block;
+}
+
+.line-below::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -20px;
+    width: 50%;
+    height: 3px;
+    background-color: var(--info);
+}
+
+.icon {
+    width: 80px;
+    height: 80px;
+    transition: all 200ms ease-in;
+}
+.contact-icon {
+ 
+    width: 60px;
+    height: 60px;
+    border: 2px dotted var(--info);
+
+}
+
+.list-group {
+    border-radius: 0;
+}
+
+.list-group-item {
+    border: none;
+    border-right: 3px solid #ecedf0;
+}
+
+.list-group-item.active {
+    background-color: transparent;
+    color: rgb(63 186 191);
+    border-right: 3px solid var(--info);
+}
+
+
+.icon:hover {
+    transform: scale(1.09);
+}
+
+.btn:hover {
+    background-color: white !important;
+    color: var(--info) !important;
+    
+}
+.social-icons:hover {
+    color: var(--info) !important;
+
+}
+
+@media (max-width: 768px) {
+   .departments-img {
+display: flex;
+justify-content: center;   }
+.btn {
+    width: 50%;
+}
+    .carousel-indicators {
+        bottom: 0px;
+        margin-bottom: 0;
+    }
+    
+}
